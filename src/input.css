@@ -13,15 +13,27 @@ body {
 }
 
 .btn {
-    padding: 14px 118px;
+    background: #FF5A30;
     color: #FFFFFF;
+    font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 4px;
+}
+.btn2 {
+    background: transparent;
+    color: #FF5A30;
+    border: 1px solid #FF5A30;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 img {
     max-width: 100%;
 }
+
 
 h1,
 h2,
@@ -30,7 +42,7 @@ h3 {
 }
 
 .container {
-    max-width: 1230px;
+    max-width: 1260px;
     margin: 0 auto;
     padding: 0 20px;
 }
